@@ -30,4 +30,4 @@
  */
 
 let str = "42";
-Number.parseInt(str, 10); // 42
+console.log(Number.parseInt(str, 10)); // 42
