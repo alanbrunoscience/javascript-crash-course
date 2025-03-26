@@ -1,0 +1,10 @@
+Can I use 'var'?
+
+- When you're browsing the Internet for documentation, or Questions & Answers on StackOverflow, you will see a lot of code snippets using var instead of let & const.
+
+- Even though var still works, its usage is discouraged as it may be confusing in a lot of scenarios. So you can simply replace var with let (or const if the variable is not being reassigned).
+
+*** Legacy note ***
+- Avoid using var when defining variables. Use let or const instead.
+
+- A thorough explanation of why you should avoid var is available towards the end of the course. We follow a unique approach in this course where we teach you modern JavaScript before uncovering the legacy and it has worked quite well for most of our students!
