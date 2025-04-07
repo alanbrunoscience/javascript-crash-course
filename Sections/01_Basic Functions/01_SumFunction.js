@@ -1,11 +1,7 @@
-/**
- * @param {number} a
- * @param {number} b
- */
-function sum(a, b) {
-  
-  return a + b;
+'use strict';
 
+function sum(a, b) { 
+  return a + b;
 }
 
 // sample usage - do not modify
