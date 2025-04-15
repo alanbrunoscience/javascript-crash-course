@@ -8,7 +8,7 @@ const numbers = [10, 8, 13, 15];
 console.log(numbers);
 
 console.log(numbers.push(20)); // returns 5 (the new length of the array)
-console.log(numbers); // [10, 8, 13, 15, 30];
+console.log(numbers); // [10, 8, 13, 15, 20];
 
 /**
  * Array.push() returns the new length of the array.
