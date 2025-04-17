@@ -1,0 +1,47 @@
+What is reduce?
+
+- The 'reduce()' method is a little bit complicated but we'll break it down step by step. Don't worry if you don't understand it the first time.
+
+- The 'reduce()' method is used to CALCULATE A SINGLE VALUE FROM AN ARRAY. In other terms, YOU REDUCE AN ARRAY INTO A SINGLE VALUE.
+
+------------------------------------------------------------------------------------------------------------------
+
+Reduce example: sum
+
+- We can 'reduce' the array [5, 10, 5] to the number 20.
+
+- We can 'reduce' the array [2, 4, 3] to the number 9.
+
+- You may have noticed that both of these examples have summed up the items in the array. 5 + 10 + 5 = 20 and 2 + 4 + 3 = 9.
+
+- This is one of the most common use cases of 'reduce()', which is summing the array items.
+
+------------------------------------------------------------------------------------------------------------------
+
+Reduce example: multiplication
+
+- Another example is multiplication. For example:
+
+- We can 'reduce' the array [10, 2, 2] to the number 40 (10 * 2 * 2 = 40).
+
+------------------------------------------------------------------------------------------------------------------
+
+So is the reduce method a sum or a multiplication?
+
+- It's neither. That's because the 'reduce()' method accepts the reducer which is a callback that you have to write. That callback can be sum, multiplication, or some other logic that you may think of.
+
+- So reduce is a GENERIC FUNCTION THAT WILL REDUCE AN ARRAY INTO A SINGLE VALUE. The way it will reduce that array into a single value is CONFIGURABLE BY YOU, the developer. You can configure that in the 'reducer' callback.
+
+- We don't expect things to be clear yet as we have not shown you the code, but below you can find the recap of the most important concepts covered so far.
+
+------------------------------------------------------------------------------------------------------------------
+
+Recap
+
+- The 'reduce()' method is used to calculate a single value from an array.
+
+- In other terms, the 'reduce()' method REDUCES AN ARRAY INTO A SINGLE VALUE.
+
+- The most common use cases of reduce (when working with arrays of numbers) are sum & multiplication.
+
+- The 'reduce()' method takes a reducer which allows you to configure the logic of how the array will be reduced into a single number.
