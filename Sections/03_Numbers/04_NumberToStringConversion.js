@@ -1,6 +1,5 @@
-/**
- * @param {number} number
- */
+'use strict';
+
 function convertNumberToString(number) {
 
   return number.toString();

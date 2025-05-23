@@ -6,4 +6,6 @@
 
 */
 
-console.log("red".toUpperCase());
+'use strict';
+
+console.log("red".toUpperCase()); // RED

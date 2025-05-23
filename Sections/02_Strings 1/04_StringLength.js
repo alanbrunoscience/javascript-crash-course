@@ -1,6 +1,5 @@
-/**
- * @param {string} str
- */
+'use strict';
+
 function getCharCount(str) {
   
   return str.length;

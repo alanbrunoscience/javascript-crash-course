@@ -1,3 +1,5 @@
+'use strict';
+
 let name = "Sam";
 name = name + " Blue";
 console.log(name); // "Sam Blue"

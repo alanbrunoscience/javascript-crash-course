@@ -1,9 +1,11 @@
 /**
  * Number Methods
  * 
- * - While there are some other methods you could call on numbers, they are not very commonly used. What is commonly 
- * used, however, is the Math object which contains methods such as min(), max(), round(), etc.
+ * While there are some other methods you could call on numbers, they are not very commonly used. What is commonly used, however, is the
+ * Math object which contains methods such as min(), max(), round(), etc.
  */
+
+'use strict';
 
 console.log(Math.round(2.1)); // 2
 console.log(Math.round(2.6)); // 3

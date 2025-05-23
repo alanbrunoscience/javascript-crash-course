@@ -1,6 +1,5 @@
-/**
- * @param {string} name
- */
+'use strict';
+
 function getLastCharacter(name) {
   
   return name.at(-1);

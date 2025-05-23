@@ -1,9 +1,12 @@
 /**
  * Optional parameters
  * 
- * - The indexEnd parameter is optional, which means you can pass the indexStart and it'll assume the indexEnd to be the same as the string length. Here's an example:
+ * The indexEnd parameter is optional, which means you can pass the indexStart and it'll assume the indexEnd to be the same as the 
+ * string length. Here's an example:
  * 
  */
+
+'use strict';
 
 const language = "JavaScript";
 

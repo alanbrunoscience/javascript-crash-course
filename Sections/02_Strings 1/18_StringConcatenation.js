@@ -1,7 +1,5 @@
-/**
- * @param {string} firstNameInitial
- * @param {string} lastNameInitial
- */
+'use strict';
+
 function concatInitials(firstNameInitial, lastNameInitial) {
 
   return firstNameInitial + lastNameInitial;

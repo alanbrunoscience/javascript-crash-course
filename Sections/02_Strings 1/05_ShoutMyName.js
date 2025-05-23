@@ -1,6 +1,5 @@
-/**
- * @param {string} name
- */
+'use strict';
+
 function shoutMyName(name) {
   
   return name.toUpperCase();

@@ -1,3 +1,5 @@
+'use strict';
+
 function canVote(age) {
   
   if(age >= 18) {

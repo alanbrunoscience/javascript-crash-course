@@ -1,6 +1,8 @@
 // The length property is used to return the length of the stringify.
 
-console.log("Nice!".length);
+'use strict';
+
+console.log("Nice!".length); // 5
 
 let text = "Hello World";
-console.log(text.length);
+console.log(text.length); // 11

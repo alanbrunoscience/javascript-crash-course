@@ -8,4 +8,6 @@
 
 */
 
-console.log("BLUE".toLowerCase());
+'use strict';
+
+console.log("BLUE".toLowerCase()); // blue

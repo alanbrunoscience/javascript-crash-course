@@ -1,13 +1,12 @@
 /**
- * Get last app 
+ * Get last app
  * 
- * - Complete the function getLastApp such that it returns the last element from the apps array it receives as 
- * a parameter.
+ * Complete the function getLastApp such that it returns the last element from the apps array it receives as a parameter.
+ * 
  */
 
-/**
- * @param {array} apps
- */
+'use strict';
+
 function getLastApp(apps) {
   return apps.at(-1);
   // alternatively

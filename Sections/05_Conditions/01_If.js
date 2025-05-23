@@ -1,3 +1,5 @@
+'use strict';
+
 const grade = 15;
 
 if (grade >= 10) {

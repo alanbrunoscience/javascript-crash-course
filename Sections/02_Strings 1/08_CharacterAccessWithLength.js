@@ -1,9 +1,12 @@
 /**
  * Combining Character Access With Length
  * 
- * You can also combine the character access with the .length property. So using the same language variable, here's how you get the second to last character from it.
+ * You can also combine the character access with the .length property. So using the same language variable, here's how you get the 
+ * second to last character from it.
  * 
  */
+
+'use strict';
 
 const language = "JavaScript";
 

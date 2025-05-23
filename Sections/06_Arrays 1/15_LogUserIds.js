@@ -1,13 +1,13 @@
 /**
  * Log user ids 
  * 
- * - Complete the function logUserIds such that it iterates over every item in the userIds array it receives 
- * and logs it to the console (using console.log).
+ * Complete the function logUserIds such that it iterates over every item in the userIds array it receives and logs it to the console 
+ * (using console.log).
+ * 
  */
 
-/**
- * @param {number[]} userIds
- */
+'use strict';
+
 function logUserIds(userIds) {
   userIds.forEach(function(userId) {
     console.log(userId);

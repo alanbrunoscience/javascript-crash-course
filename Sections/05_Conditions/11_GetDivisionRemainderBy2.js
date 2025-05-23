@@ -1,11 +1,13 @@
 /**
  * Get division remainder by 2 
  * 
- * - Complete the function evenOrOdd such that it returns the string "even" when the number parameter it receives is even and 
- * "odd" otherwise.
+ * Complete the function evenOrOdd such that it returns the string "even" when the number parameter it receives is even and "odd" 
+ * otherwise.
  * 
- * - Can you make it work with negative numbers too?
+ * Can you make it work with negative numbers too?
  */
+
+'use strict';
 
 const readlineSync = require("readline-sync");
 

@@ -1,9 +1,11 @@
 /**
  * Let
  * 
- * - The first time you define a variable, you have to prefix it with 'let ='. Let's take an example:
+ * The first time you define a variable, you have to prefix it with 'let ='. Let's take an example:
  * 
  */
+
+'use strict';
 
 let name = "Sam";
 console.log(name);

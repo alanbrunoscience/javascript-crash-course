@@ -1,12 +1,12 @@
 /**
  * Number of elements
  * 
- * - Complete the function getNumberOfElements such that it returns the number of items contained in the elements array it receives.
+ * Complete the function getNumberOfElements such that it returns the number of items contained in the elements array it receives.
+ * 
  */
 
-/**
- * @param {array} elements
- */
+'use strict';
+
 function getNumberOfElements(elements) {
   return elements.length;
 }

@@ -1,3 +1,5 @@
+'use strict';
+
 // even numbers
 console.log("*** Even Numbers ***\n");
 console.log(`4 % 2 = ${4 % 2}`); // 0

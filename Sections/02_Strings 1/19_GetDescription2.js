@@ -1,3 +1,5 @@
+'use strict';
+
 const readlineSync = require('readline-sync');
 
 function getDescription(text) {

@@ -1,11 +1,14 @@
 /**
  * Arrays
  * 
- * - Arrays in JavaScript allow you to store multiple elements in the same variable. You can store numbers, strings, booleans,
- * arrays, objects & more. These can be mixed within the same array.
+ * Arrays in JavaScript allow you to store multiple elements in the same variable. You can store numbers, strings, booleans, arrays,
+ * objects & more. These can be mixed within the same array.
  * 
- * - Here are some examples:
+ * Here are some examples:
+ * 
  */
+
+'use strict';
 
 const users = []; // empty arrays
 const grades = [10, 8, 13, 15]; // array of numbers

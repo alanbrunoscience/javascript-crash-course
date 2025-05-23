@@ -1,9 +1,11 @@
 /**
  * Multiline strings
  * 
- * - Unlike single-quote and double-quote strings, template strings can span multiple lines. 
+ * Unlike single-quote and double-quote strings, template strings can span multiple lines. 
  * 
  */
+
+'use strict';
 
 let text = `This is a multiline
 string that

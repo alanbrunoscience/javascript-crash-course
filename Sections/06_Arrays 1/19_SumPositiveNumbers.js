@@ -1,16 +1,15 @@
 /**
  * Sum positive numbers 
  * 
- * - Complete the function sumPositiveNumbers such that it returns the sum of all positive numbers from the 
- * numbers parameter it receives.
+ * Complete the function sumPositiveNumbers such that it returns the sum of all positive numbers from the numbers parameter it receives.
  * 
- * - This challenge will help you combine some of the knowledge you acquired in this course. Take your time and 
- * make as many mistakes as possible!
+ * This challenge will help you combine some of the knowledge you acquired in this course. Take your time and make as many mistakes as 
+ * possible!
+ * 
  */
 
-/**
- * @param {number[]} numbers
- */
+'use strict';
+
 function sumPositiveNumbers(numbers) {
   let sum = 0;
   numbers.forEach(function(number) {

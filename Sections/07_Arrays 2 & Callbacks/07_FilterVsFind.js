@@ -29,7 +29,7 @@ const b = numbers.find(function (number) {
 
 console.log(b); // 14
 
-// Notice how the .filter() is returning an array, even if there's only 1 item that matches your condition. In contrast, the .find() method will 
-// return the first item that matches the condition.
+// Notice how the .filter() is returning an array, even if there's only 1 item that matches your condition. In contrast, the .find() method 
+// will return the first item that matches the condition.
 
 // Note! .filter() always returns an array. Even if it matched one item or no items.

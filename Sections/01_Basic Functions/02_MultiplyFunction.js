@@ -1,7 +1,5 @@
-/**
- * @param {number} a
- * @param {number} b
- */
+'use strict';
+
 function multiply(a, b) {
   
   return a * b;

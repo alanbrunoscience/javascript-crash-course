@@ -1,9 +1,10 @@
 /**
  * Template strings
  * 
- * - You already know that you can create strings with double quotes or single quotes, but as you already know, these strings do not support interpolation.
+ * You already know that you can create strings with double quotes or single quotes, but as you already know, these strings do not 
+ * support interpolation.
  * 
- * - Template strings, however, support interpolation and other nifty features.
+ * Template strings, however, support interpolation and other nifty features.
  * 
  */
 

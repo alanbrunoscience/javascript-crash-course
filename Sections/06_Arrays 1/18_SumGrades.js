@@ -1,13 +1,13 @@
 /**
  * Sum grades
  * 
- * - Complete the function sumGrades such that it returns the sum of all the grades it receives as a parameter. 
- * We haven't seen reduce yet, so try to solve it using what you have learned so far.
+ * Complete the function sumGrades such that it returns the sum of all the grades it receives as a parameter. We haven't seen reduce yet,
+ * so try to solve it using what you have learned so far.
+ * 
  */
 
-/**
- * @param {number[]} grades
- */
+'use strict';
+
 function sumGrades(grades) {
   let sum = 0;
   grades.forEach(function(grade) {

@@ -1,7 +1,5 @@
-/**
- * @param {string} firstName
- * @param {string} lastName
- */
+'use strict';
+
 function getFullName(firstName, lastName) {
 
   return `${firstName} ${lastName}`;

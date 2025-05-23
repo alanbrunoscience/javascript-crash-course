@@ -1,13 +1,12 @@
 /**
  * Get first app 
  * 
- * - Complete the function getFirstApp such that it returns the first element from the apps array it receives as 
- * a parameter.
+ * Complete the function getFirstApp such that it returns the first element from the apps array it receives as a parameter.
+ * 
  */
 
-/**
- * @param {array} apps
- */
+'use strict';
+
 function getFirstApp(apps) {
   return apps.at(0);
 }

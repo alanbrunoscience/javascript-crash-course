@@ -1,6 +1,5 @@
-/**
- * @param {string} text
- */
+'use strict';
+
 function skipFirstCharacter(text) {
 
   return text.substring(1);

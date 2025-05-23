@@ -1,15 +1,14 @@
 /**
  * Sum odd numbers 
  * 
- * - Complete the function sumOddNumbers such that it returns the sum of all the odd numbers from the numbers
- * parameter it receives.
+ * Complete the function sumOddNumbers such that it returns the sum of all the odd numbers from the numbers parameter it receives.
  * 
- * - The function should also work for negative numbers.
+ * The function should also work for negative numbers.
+ * 
  */
 
-/**
- * @param {number[]} numbers
- */
+'use strict';
+
 function sumOddNumbers(numbers) {
   let sum = 0;
   numbers.forEach(function(number) {

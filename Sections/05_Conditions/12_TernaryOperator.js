@@ -1,15 +1,18 @@
 /**
  * The Ternary Operator
  * 
- * - Short if conditions can sometimes be written using the ternary operator. The ternary 
- * operator is a short way of writing an if...else statement.
+ * Short if conditions can sometimes be written using the ternary operator. The ternary operator is a short way of writing an 
+ * if...else statement.
  * 
- * - The ternary operator has the following syntax:
+ * The ternary operator has the following syntax:
  * 
  * -> condition ? expressionWhenTrue : expressionWhenFalse
  * 
- * - Let's go back to the solution of the previous challenge:
+ * Let's go back to the solution of the previous challenge:
+ * 
  */
+
+'use strict';
 
 const readlineSync = require("readline-sync");
 

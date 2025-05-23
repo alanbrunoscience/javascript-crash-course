@@ -1,13 +1,12 @@
 /**
  * Use any app 
  * 
- * - Complete the function such that the app variable is added to the apps array. Then, return the apps array.
+ * Complete the function such that the app variable is added to the apps array. Then, return the apps array.
+ * 
  */
 
-/**
- * @param {array} apps
- * @param {string} app
- */
+'use strict';
+
 function useApp(apps, app) {
   apps.push(app);
   return apps;

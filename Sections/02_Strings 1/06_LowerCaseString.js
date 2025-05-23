@@ -1,6 +1,5 @@
-/**
- * @param {string} name
- */
+'use strict';
+
 function lowerName(name) {
   
   return name.toLowerCase();

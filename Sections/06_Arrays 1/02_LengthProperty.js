@@ -1,8 +1,11 @@
 /**
  * .length property
  * 
- * - You can get the number of elements in an array by using the .length property. For example:
+ * You can get the number of elements in an array by using the .length property. For example:
+ * 
  */
+
+'use strict';
 
 console.log([].length); // 0
 

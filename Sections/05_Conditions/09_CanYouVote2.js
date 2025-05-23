@@ -1,14 +1,13 @@
 /**
  * Can you vote (improved) 
  * 
- * - Implement the function canVote such that it returns true whenever the age is 18 or above 
- * and false in all other scenarios. You should not use an if condition (or ternary).
+ * Implement the function canVote such that it returns true whenever the age is 18 or above and false in all other scenarios. You should
+ * not use an if condition (or ternary).
  * 
  */
 
-/**
- * @param {number} age
- */
+'use strict';
+
 function canVote(age) {
   return age >= 18;
 }

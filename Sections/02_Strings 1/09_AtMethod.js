@@ -1,9 +1,11 @@
 /**
  * The .at(index) method
  * 
- * - Since 2022, JavaScript now has a .at() method that reads the character at a certain index, which can also be negative.
+ * Since 2022, JavaScript now has a .at() method that reads the character at a certain index, which can also be negative.
  * 
  */
+
+'use strict';
 
 const language = "JavaScript";
 

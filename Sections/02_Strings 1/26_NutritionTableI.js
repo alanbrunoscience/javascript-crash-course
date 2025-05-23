@@ -1,7 +1,5 @@
-/**
- * @param {string} label
- * @param {string} value
- */
+'use strict';
+
 export function renderTableRow(label, value) {
   console.log(label, value);
   return `<tr>
