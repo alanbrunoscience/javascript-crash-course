@@ -1,3 +1,5 @@
+'use strict';
+
 const numbers = [9, 5, 14, 3, 11];
 
 const firstNumberAboveTen = numbers.find(function (number) {

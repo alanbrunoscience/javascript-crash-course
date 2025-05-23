@@ -1,3 +1,5 @@
+'use strict';
+
 const getRaisedGrades = grades => {
   return grades.map(function (grade) {
     if (grade + 1 > 20) {

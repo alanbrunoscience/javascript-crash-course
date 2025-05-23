@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 
 const users = [{
   id: 1,

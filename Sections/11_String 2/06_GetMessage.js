@@ -1,11 +1,14 @@
 /**
  * Get message
  * 
- * - Complete the function 'getMessage' such that it returns the message it receives as a parameter. The message should always end 
- * with a full stop (.);
+ * Complete the function 'getMessage' such that it returns the message it receives as a parameter. The message should 
+ * always end with a full stop (.);
  * 
- * - Check the sample output to better understand the requirements.
+ * Check the sample output to better understand the requirements.
+ * 
  */
+
+'use strict';
 
 const getMessage = message => {
   if (message.endsWith('.')) {

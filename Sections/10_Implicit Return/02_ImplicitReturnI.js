@@ -1,8 +1,11 @@
 /**
  * Implicit return I
  * 
- * - Re-write the function 'triple' without using the keyword 'return'.
+ * Re-write the function 'triple' without using the keyword 'return'.
+ * 
  */
+
+'use strict';
 
 const triple = value => value * 3;
 // or

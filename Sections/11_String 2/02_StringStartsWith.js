@@ -1,8 +1,12 @@
 /**
  * String .startsWith()
  * 
- * - The .startsWith(substring) method returns true when the substring is found at the beginning of the string and false otherwise.
+ * The .startsWith(substring) method returns true when the substring is found at the beginning of the string and false
+ * otherwise.
+ * 
  */
+
+'use strict';
 
 const sentence = "Hello there. Welcome!";
 

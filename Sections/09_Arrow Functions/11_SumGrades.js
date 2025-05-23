@@ -1,9 +1,12 @@
 /**
  * Sum grades
  * 
- * - Using arrow functions, complete the function 'sumGrades' such that it returns the sum of all the grades it receives 
+ * Using arrow functions, complete the function 'sumGrades' such that it returns the sum of all the grades it receives 
  * as a parameter. We haven't seen reduce yet, so try to solve it using what you have learned so far.
+ * 
  */
+
+'use strict';
 
 // function sumGrades(grades) {
 //   let sum = 0;

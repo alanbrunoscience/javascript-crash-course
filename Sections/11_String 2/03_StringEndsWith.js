@@ -1,7 +1,8 @@
 /**
  * Strings .endsWith()
  * 
- * - The '.endsWith(substring)' works the same but for the 'end' of the string.
+ * The '.endsWith(substring)' works the same but for the 'end' of the string.
+ * 
  */
 
 'use strict';

@@ -1,10 +1,13 @@
 /**
  * Todo list
  * 
- * - Complete the function getCountTodos such that it returns the number of todos in the CSV string it receives.
+ * Complete the function getCountTodos such that it returns the number of todos in the CSV string it receives.
  * 
- * - Note: CSV means Comma Separated Values. Here's an example of a CSV string: "first item, second item".
+ * Note: CSV means Comma Separated Values. Here's an example of a CSV string: "first item, second item".
+ * 
  */
+
+'use strict';
 
 const getCountTodos = todos => todos.split(',').length;
 

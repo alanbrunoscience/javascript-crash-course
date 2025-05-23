@@ -1,5 +1,7 @@
 // Array Find (callback)
 
+'use strict';
+
 const names = ["Sam", "Alex", "Charlie"];
 
 const result = names.find(function(name) {

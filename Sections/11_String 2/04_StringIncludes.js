@@ -1,7 +1,9 @@
 /**
  * String .includes(substring)
  * 
- * - The .includes(substring) method returns 'true' when the substring can be found anywhere in the string and 'false' otherwise.
+ * The .includes(substring) method returns 'true' when the substring can be found anywhere in the string and 'false' 
+ * otherwise.
+ * 
  */
 
 'use strict';

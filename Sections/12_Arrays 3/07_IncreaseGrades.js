@@ -1,12 +1,13 @@
 /**
  * Increase Grades
  * 
- * - Complete the function 'shouldAdjustGrades' such that it returns 'true' when the grades need to be increased.
+ * Complete the function 'shouldAdjustGrades' such that it returns 'true' when the grades need to be increased.
  * 
- * - Grades should be increased when at least one of them is failing (10 and above are passing).
+ * Grades should be increased when at least one of them is failing (10 and above are passing).
+ * 
  */
 
-"use strict"
+'use strict';
 
 const shouldAdjustGrades = grades => grades.some(grade => grade < 10);
 

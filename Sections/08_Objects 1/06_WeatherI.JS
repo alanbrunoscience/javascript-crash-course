@@ -1,23 +1,26 @@
 /**
  * Weather I
  * 
- * - Once we learn about the Fetch API, you will be able to write the fetch call to a (demo) weather API!
+ * Once we learn about the Fetch API, you will be able to write the fetch call to a (demo) weather API!
  * 
- * - For this challenge, we're already calling the weather API for you in the index.js. You have to complete the 
+ * For this challenge, we're already calling the weather API for you in the index.js. You have to complete the 
  * following functions in weather.js:
  * 
  * -> getCountry which returns the country for which we're showing the weather;
  * -> getIcon which returns the icon;
  * -> getTemperature which returns the temperature.
  * 
- * - Note that these 3 functions receive a data object which is a snapshot of a response coming from a real API 
+ * Note that these 3 functions receive a data object which is a snapshot of a response coming from a real API 
  * (weatherstack.com).
  * 
- * - You cannot solve this challenge without starting with a console.log(data) in every function. You have to explore 
+ * You cannot solve this challenge without starting with a console.log(data) in every function. You have to explore 
  * the object and see where you can get the property that you're looking for.
  * 
- * - Oh, and, we've disabled the auto-complete so that you can figure it out yourself ;) Good luck!
+ * Oh, and, we've disabled the auto-complete so that you can figure it out yourself ;) Good luck!
+ * 
  */
+
+'use strict';
 
 export function getCountry(data) {
   console.log(data.location.country);

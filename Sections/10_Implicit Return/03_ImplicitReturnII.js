@@ -1,8 +1,11 @@
 /**
  * Implicit return II
  * 
- * - Create a function 'multiply' that returns the product of both of its parameters without using the keyword 'return'.
+ * Create a function 'multiply' that returns the product of both of its parameters without using the keyword 'return'.
+ * 
  */
+
+'use strict';
 
 // TODO: define function multiply
 const multiply = (a, b) => a * b;

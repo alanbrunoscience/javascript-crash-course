@@ -1,14 +1,18 @@
 /**
  * Temperature unit
  * 
- * - Complete the function getUnit such that it returns the unit of temperature measurement used in the text it receives.
+ * Complete the function getUnit such that it returns the unit of temperature measurement used in the text it receives.
  * 
  * - It should return "Celsius" when °C is found in the string;
  * - It should return "Fahrenheit" when °F is found in the string;
  * - It should return "N/A" (Not Applicable) in all other cases.
  * 
- * - To avoid small typos, make sure to copy the strings (such as Celsius and the degree symbol ) from the challenge description.
+ * To avoid small typos, make sure to copy the strings (such as Celsius and the degree symbol) from the challenge 
+ * description.
+ * 
  */
+
+'use strict';
 
 const getUnit = text => {
   if(text.includes("°C")) return "Celsius";

@@ -1,6 +1,9 @@
 /**
- * - Now let's take a look at an example where no items satisfy the condition:
+ * Now let's take a look at an example where no items satisfy the condition:
+ * 
  */
+
+'use strict';
 
 const numbers = [9, 5, 14, 3, 11];
 
@@ -20,5 +23,5 @@ console.log(b); // undefined
 
 // Notice how the .filter() returned an empty array and the .find() returned undefined.
 
-// Note! .find(callback) can return undefined. You may have to wrap its result in an if condition to avoid unexpected errors if you end up calling 
-// a method on its result.
+// Note! .find(callback) can return undefined. You may have to wrap its result in an if condition to avoid unexpected
+// errors if you end up calling a method on its result.

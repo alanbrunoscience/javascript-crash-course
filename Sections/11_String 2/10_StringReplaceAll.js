@@ -1,7 +1,8 @@
 /**
  * String.replaceAll(search, replace)
  * 
- * - This method works like the one above, except that it will replace 'all occurrences'.
+ * This method works like the one above, except that it will replace 'all occurrences'.
+ * 
  */
 
 'use strict';

@@ -7,6 +7,8 @@
  * - Use an arrow function (implicit return is optional).
  */
 
+'use strict';
+
 const getPositiveTemperatures = temperatures => temperatures.filter(temperature => temperature > 0);
 
 // Or

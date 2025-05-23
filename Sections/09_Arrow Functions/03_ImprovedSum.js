@@ -1,11 +1,14 @@
 /**
  * Improved sum
  * 
- * - You've been provided with a function sum that returns the sum of the parameters a and b it receives.
+ * You've been provided with a function sum that returns the sum of the parameters a and b it receives.
  * 
- * - However, in some cases, we're getting NaN. Fix this function without using if conditions (or ternary) so that we don't 
- * get NaN. Check the sample usage to see the expected result.
+ * However, in some cases, we're getting NaN. Fix this function without using if conditions (or ternary) so that we
+ * don't get NaN. Check the sample usage to see the expected result.
+ * 
  */
+
+'use strict';
 
 function sum(a = 0, b = 0) {
   return a + b;

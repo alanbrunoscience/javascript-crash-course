@@ -1,10 +1,14 @@
 /**
  * Odd Years 
  * 
- * - Complete the function getOddYears such that it returns all the years that are odd from the years parameter it receives.
+ * Complete the function getOddYears such that it returns all the years that are odd from the years parameter it
+ * receives.
  * 
- * - P.S.: We know that 2020 was an "odd" year but the number 2020 is even ;)
+ * P.S.: We know that 2020 was an "odd" year but the number 2020 is even ;)
+ * 
  */
+
+'use strict';
 
 function getOddYears(years) {
   return years.filter(function (year) {

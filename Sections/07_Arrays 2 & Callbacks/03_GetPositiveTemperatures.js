@@ -1,9 +1,12 @@
 /**
  * Positive Temperatures
  * 
- * - Complete the function getPositiveTemperatures such that it returns an array containing the positive temperatures (the temperatures 
+ * Complete the function 'getPositiveTemperatures' such that it returns an array containing the positive temperatures (the temperatures 
  * that are above 0).
+ * 
  */
+
+'use strict';
 
 function getPositiveTemperatures(temperatures) {
   return temperatures.filter(function (temperature) {

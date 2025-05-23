@@ -1,13 +1,16 @@
 /**
  * Feels Like
  * 
- * - Complete the function getWeather such that it returns the string:
+ * Complete the function getWeather such that it returns the string:
  * 
  * -> 'It's currently X degrees in Y'.
  * 
- * - Where X is replaced by the value and Y is replaced by the city name. These values are provided as a city parameter
+ * Where X is replaced by the value and Y is replaced by the city name. These values are provided as a city parameter
  * which is an object.
+ * 
  */
+
+'use strict';
 
 function getWeather(city) {
   return `It's currently ${city.value} degrees in ${city.name}`;

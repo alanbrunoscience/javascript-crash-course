@@ -1,10 +1,12 @@
 /**
  * Freezing temperatures
  * 
- * - Complete the function getFreezingTemperatures such that it returns an array containing 
- * the freezing temperatures (the temperatures that are below 0). Use an arrow function
- * (implicit return is optional).
+ * Complete the function getFreezingTemperatures such that it returns an array containing the freezing temperatures 
+ * (the temperatures that are below 0). Use an arrow function (implicit return is optional).
+ * 
  */
+
+'use strict';
 
 const getFreezingTemperatures = temperatures => temperatures.filter(temperature => temperature < 0);
 

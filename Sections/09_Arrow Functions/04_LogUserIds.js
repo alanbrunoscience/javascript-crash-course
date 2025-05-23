@@ -1,10 +1,13 @@
 /**
  * Log User Ids
  * 
- * - Our 'logUserIds' function fails when we call it without any parameter.
+ * Our 'logUserIds' function fails when we call it without any parameter.
  * 
- * - Fix that without using an if condition.
+ * Fix that without using an if condition.
+ * 
  */
+
+'use strict';
 
 function logUserIds(userIds = []) {
   userIds.forEach(function (userId) {

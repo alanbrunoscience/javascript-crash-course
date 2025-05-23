@@ -1,9 +1,12 @@
 /**
  * Positive temperatures
  * 
- * - Using an arrow function, complete the function getPositiveTemperatures such that it returns an array containing 
+ * Using an arrow function, complete the function getPositiveTemperatures such that it returns an array containing 
  * the positive temperatures (the temperatures that are above 0).
+ * 
  */
+
+'use strict';
 
 const getPositiveTemperatures = (temperatures) => {
   return temperatures.filter(temperature => {

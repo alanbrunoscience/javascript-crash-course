@@ -1,5 +1,7 @@
 // Array filter(callback)
 
+'use strict';
+
 const numbers = [9, 5, 14, 3, 11];
 
 const numbersAboveTen = numbers.filter(function(number) {

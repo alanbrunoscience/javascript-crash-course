@@ -1,9 +1,10 @@
 /**
  * Cancel Exam
  * 
- * - Complete the function 'shouldCancelExam' such that it returns 'true' when the exam needs to be canceled.
+ * Complete the function 'shouldCancelExam' such that it returns 'true' when the exam needs to be canceled.
  * 
- * - An exam must be canceled if all the students' grades were very high (18 and above).
+ * An exam must be canceled if all the students' grades were very high (18 and above).
+ * 
  */
 
 "use strict"
