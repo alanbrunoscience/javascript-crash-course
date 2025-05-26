@@ -1,0 +1,9 @@
+Chapter Recap
+
+- Array destructuring is syntactic sugar (meaning that it makes your code easier to read);
+
+- The order in array destructuring matters, as every variable will be matched to the corresponding array item;
+
+- You can identify destructuring when you see the square brackets [] on the left side of the equal sign;
+
+- You can concatenate/merge several arrays into a new array using the ... spread syntax.

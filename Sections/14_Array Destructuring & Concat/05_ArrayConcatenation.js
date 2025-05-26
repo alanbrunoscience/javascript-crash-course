@@ -1,8 +1,11 @@
 /**
  * Array concatenation
  * 
- * - You can concatenate/merge several arrays' content into a new array using the '...' spread syntax. Here's an example:
+ * You can concatenate/merge several arrays' content into a new array using the '...' spread syntax. Here's an example:
+ * 
  */
+
+'use strict';
 
 const lat = [5.234];
 const lng = [1.412];
@@ -23,5 +26,6 @@ console.log(otherItems); // [ 'Tissues', 'Oranges', 'Tomatoes' ]
 /**
  * Recap
  * 
- * - You can concatenate/merge several arrays into a new array using the '...' concatenation syntax.
+ * You can concatenate/merge several arrays into a new array using the '...' concatenation syntax.
+ * 
  */

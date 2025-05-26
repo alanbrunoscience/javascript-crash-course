@@ -1,9 +1,11 @@
 /**
  * Merge apps arrays
  * 
- * - Complete the function 'getApps' such that it returns a new array containing the items from both parameters it
- * receives.
+ * Complete the function 'getApps' such that it returns a new array containing the items from both parameters it receives.
+ * 
  */
+
+'use strict';
 
 const getApps = (apps1, apps2) => {
   return [...apps1, ...apps2];
