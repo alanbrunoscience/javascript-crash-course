@@ -1,8 +1,11 @@
 /**
  * Sum numbers
  * 
- * - Complete the function such that it returns the sum of the 'numbers' it receives as a parameter.
+ * Complete the function such that it returns the sum of the 'numbers' it receives as a parameter.
+ * 
  */
+
+'use strict';
 
 const sumNumbers = numbers => {
   return numbers.reduce((accumulator, number) => {

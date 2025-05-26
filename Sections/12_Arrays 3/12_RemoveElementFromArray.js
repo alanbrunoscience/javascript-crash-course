@@ -1,8 +1,8 @@
 /**
  * Remove element from array
  * 
- * Complete the function 'removeFirstApp' such that it removes the first element of the apps array it receives
- * and returns the new array (which should not contain the item that was removed).
+ * Complete the function 'removeFirstApp' such that it removes the first element of the apps array it receives and returns 
+ * the new array (which should not contain the item that was removed).
  * 
  */
 

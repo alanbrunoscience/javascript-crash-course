@@ -7,7 +7,7 @@
  * 
  */
 
-"use strict"
+'use strict';
 
 const shouldCancelExam = grades => grades.every(grade => grade >= 18);
 

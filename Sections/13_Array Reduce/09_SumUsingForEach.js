@@ -1,5 +1,7 @@
 // Using .forEach
 
+'use strict';
+
 const sumNumbers = (numbers) => {
   let sum = 0;
 

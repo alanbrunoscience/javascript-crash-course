@@ -1,9 +1,9 @@
 /**
  * Array to String Applied to HTML
  * 
- * The previous approach is often used to  generate an HTML string from an array. Let's say we'd like to 
- * return an unordered list (a ul with li items) from the users array above. Instead of writing it with
- * .forEach, you can use the previous trick as follows:
+ * The previous approach is often used to generate an HTML string from an array. Let's say we'd like to return an unordered 
+ * list (a ul with li items) from the users array above. Instead of writing it with .forEach, you can use the previous trick
+ * as follows:
  * 
  */
 

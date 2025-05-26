@@ -1,5 +1,7 @@
 // Using .reduce
 
+'use strict';
+
 numbers = [10, 20, 30];
 
 const sum = numbers.reduce((accumulator, number) => {

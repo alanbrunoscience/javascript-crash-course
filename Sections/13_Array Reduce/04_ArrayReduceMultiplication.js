@@ -1,15 +1,18 @@
 /**
  * Array reduce: multiplication
  * 
- * - In this lesson, we'll explore another example for array reduce which is 'multiplication'.
+ * In this lesson, we'll explore another example for array reduce which is 'multiplication'.
  * 
- * - Let's say we've got the following numbers and we'd like to multiply them all:
+ * Let's say we've got the following numbers and we'd like to multiply them all:
+ * 
  */
+
+'use strict';
 
 const numbers = [5, 2, 10];
 
-// We can use '.reduce()' here because we're reducing the entire array into a single number (which is the 
-// multiplication of all these numbers).
+// We can use '.reduce()' here because we're reducing the entire array into a single number (which is the multiplication of all
+// these numbers).
 
 const result = numbers.reduce((total, current) => {
   return total * current;
@@ -20,19 +23,19 @@ console.log(result); // 100
 /**
  * Starting value for multiplication
  * 
- * - Before we explain the code step by step, let's talk about the initialValue which has a value of 1 here.
+ * Before we explain the code step by step, let's talk about the initialValue which has a value of 1 here;
  * 
- * - When doing multiplication, we can't have a starting value of '0'. That's because any number multiplied by 0
+ * When doing multiplication, we can't have a starting value of '0'. That's because any number multiplied by 0
  * will result in 0. '5 * 0 = 0'. We need a number that is neutral in multiplication, and that number is 1 because
- * any number multiplied by 1 will be that same number. For example, '1 * 5 = 5'.
+ * any number multiplied by 1 will be that same number. For example, '1 * 5 = 5';
  * 
- * - This is why in multiplication we use a starting value of '1' and in sum, we use a starting value of '0'.
+ * This is why in multiplication we use a starting value of '1' and in sum, we use a starting value of '0'.
  * 
  * ===============================================================================================================
  * 
  * Step by step explanation
  * 
- * - Going back to the code, here's how it runs step by step:
+ * Going back to the code, here's how it runs step by step:
  * 
  * const numbers = [5, 2, 10];
  * 
@@ -58,7 +61,7 @@ console.log(result); // 100
  * 
  * Common mistakes
  * 
- * - When it comes to .reduce(), there are 3 common mistakes:
+ * When it comes to .reduce(), there are 3 common mistakes:
  * 
  * 1. Syntax errors
  * 
@@ -81,13 +84,14 @@ console.log(result); // 100
  * 
  * Recap
  * 
- * - For multiplication, we use an 'initialValue' of '1'.
+ * For multiplication, we use an 'initialValue' of '1'.
  * 
- * - Reduce common mistakes:
+ * Reduce common mistakes:
  * 
  * 1. Syntax errors;
  * 
  * 2. Forgetting to return;
  * 
  * 3. Wrong initialValue.
+ * 
  */

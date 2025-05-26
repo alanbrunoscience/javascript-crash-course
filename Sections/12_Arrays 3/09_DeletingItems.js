@@ -10,7 +10,7 @@
 const items = ["Pen", "Paper"];
 items.length = 0;
 
-console.log(items);
+console.log(items); // []
 
 /**
  * This works even though we're using 'const' because we're not re-assigning items but rather changing its length to 0, 

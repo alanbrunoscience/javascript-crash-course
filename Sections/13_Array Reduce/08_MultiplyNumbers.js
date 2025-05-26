@@ -1,8 +1,11 @@
 /**
  * Multiply numbers
  * 
- * - Complete the function 'multiplyNumbers' such that it multiplies every number from the 'numbers' parameter it receives.
+ * Complete the function 'multiplyNumbers' such that it multiplies every number from the 'numbers' parameter it receives.
+ * 
  */
+
+'use strict';
 
 const multiplyNumbers = numbers => {
   return numbers.reduce((accumulator, number) => {

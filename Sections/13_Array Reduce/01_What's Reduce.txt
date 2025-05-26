@@ -38,10 +38,10 @@ So is the reduce method a sum or a multiplication?
 
 Recap
 
-- The 'reduce()' method is used to calculate a single value from an array.
+- The 'reduce()' method is used to calculate a single value from an array;
 
-- In other terms, the 'reduce()' method REDUCES AN ARRAY INTO A SINGLE VALUE.
+- In other terms, the 'reduce()' method REDUCES AN ARRAY INTO A SINGLE VALUE;
 
-- The most common use cases of reduce (when working with arrays of numbers) are sum & multiplication.
+- The most common use cases of reduce (when working with arrays of numbers) are sum & multiplication;
 
 - The 'reduce()' method takes a reducer which allows you to configure the logic of how the array will be reduced into a single number.
