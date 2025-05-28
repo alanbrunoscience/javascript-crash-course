@@ -18,4 +18,4 @@ Chapter Recap
 
 - The 'Object.entries()' method returns an array of arrays representing every key/value pair;
 
-- We will revisit Object.entries() later in this course.
+- We will revisit 'Object.entries()' later in this course.
