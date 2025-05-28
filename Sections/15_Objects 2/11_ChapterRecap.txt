@@ -1,0 +1,21 @@
+Chapter Recap
+
+- You cannot use the dot syntax when the property you're trying to read is stored in a variable or the result of an expression (dynamic);
+
+- Instead, you should use square brackets with the name of the variable inside. For example '[key]';
+
+- 'object[key]' will evaluate the 'key' expression first and then read the property based on its result;
+
+- The 'Object.keys(obj)' method returns an 'array' of all the 'keys' in the 'obj' that you provide;
+
+- When you access a property that does not exist on an object, you will get 'undefined';
+
+- When you try to access a property or call a method on 'undefined' (or an expression that evaluates to 'undefined'), you will get an error 'Uncaught TypeError: Cannot read property 'X' of undefined';
+
+- When you see '[object Object]', it means that an object was used in a context that was expecting a string. So, the '.toString()' method has been called automatically on the object;
+
+- The 'Object.values()' method returns an array of the values of an object;
+
+- The 'Object.entries()' method returns an array of arrays representing every key/value pair;
+
+- We will revisit Object.entries() later in this course.
