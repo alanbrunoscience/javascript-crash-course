@@ -1,5 +1,5 @@
 /**
- * Character access
+ * Character Access
  * 
  * → You can access a specific character in a string by using the square brackets syntax [].
  * 
