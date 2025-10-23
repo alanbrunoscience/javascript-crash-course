@@ -1,4 +1,4 @@
-// The length property is used to return the length of the stringify.
+// The length property is used to return the length of the string.
 
 'use strict';
 
