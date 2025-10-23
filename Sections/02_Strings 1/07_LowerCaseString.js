@@ -1,9 +1,7 @@
 'use strict';
 
 function lowerName(name) {
-  
   return name.toLowerCase();
-
 }
 
 // Sample usage - do not modify

@@ -1,9 +1,7 @@
 'use strict';
 
 function shoutMyName(name) {
-  
   return name.toUpperCase();
-
 }
 
 // Sample usage - do not modify

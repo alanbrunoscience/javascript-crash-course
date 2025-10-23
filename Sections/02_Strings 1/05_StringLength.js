@@ -1,9 +1,7 @@
 'use strict';
 
 function getCharCount(str) {
-  
   return str.length;
-
 }
 
 // Sample usage - do not modify
