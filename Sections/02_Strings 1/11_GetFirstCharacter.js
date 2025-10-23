@@ -1,9 +1,7 @@
 'use strict';
 
 function getFirstCharacter(name) {
-  
   return name[0];
-  
 }
 
 // Sample usage - do not modify
