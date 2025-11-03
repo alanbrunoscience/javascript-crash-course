@@ -1,7 +1,7 @@
 /**
  * Let
  * 
- * The first time you define a variable, you have to prefix it with 'let ='. Let's take an example:
+ * → The first time you define a variable, you have to prefix it with 'let ='. Let's take an example:
  * 
  */
 
@@ -10,8 +10,13 @@
 let name = "Sam";
 console.log(name);
 
-// This defines a variable called 'name' with a value of 'Sam'. The next time you'd like to use that variable, you reference it by its 
-// name (you only use the 'let' keyword for declaration). Variables defined with 'let', can be re-assigned later on:
+/**
+ * 
+ * → This defines a variable called 'name' with a value of 'Sam'. The next time you'd like to use that variable, you
+ * reference it by its name (you only use the 'let' keyword for declaration). Variables defined with 'let', can be
+ * re-assigned later on:
+ * 
+ */
 
 let language = "C++";
 console.log(language);

@@ -1,5 +1,10 @@
 let vs const
 
-- How do you decide if you're going to use let or const? The general rule is easy. Always go with const, until you realize that you need to be able to re-assign the variable later on, then switch it to let. With time it becomes easier. For example, when you define a variable count (that you expect to increment), you will immediately realize that and use let.
+→ How do you decide if you're going to use let or const? The general rule is easy. Always go with 'const', until you 
+realize that you need to be able to re-assign the variable later on, then switch it to let. With time it becomes easier. 
+For example, when you define a variable count (that you expect to increment), you will immediately realize that and use 
+'let'.
 
-- The benefit of using const is that once a variable is an array, it will always be an array (but as you will see later on, the elements inside the array might change). This allows you to confidently use array methods on that variable because you know it will always be of type array.
+→ The benefit of using 'const' is that once a variable is an array, it will always be an array (but as you will see later on,
+the elements inside the array might change). This allows you to confidently use array methods on that variable because you 
+know it will always be of type array.
