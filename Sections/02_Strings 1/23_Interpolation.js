@@ -1,7 +1,7 @@
 /**
  * Interpolation
  * 
- * Template strings support interpolation! This means you could write a variable in your string, and get its value. The syntax is 
+ * → Template strings support interpolation! This means you could write a variable in your string, and get its value. The syntax is 
  * straightforward, you wrap your variable name with a dollar sign and curly braces. Let's take an example where we have a variable
  * language with a value of JavaScript.
  * 

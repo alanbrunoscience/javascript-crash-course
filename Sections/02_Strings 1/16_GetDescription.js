@@ -12,5 +12,5 @@ const name = readlineSync.question("Enter text: ");
 
 console.log(getDescription(name));
 
-// Exporta a função para uso em outros módulos (se necessário)
+// Export the function for use in other modules (if needed)
 module.exports = { getDescription };
