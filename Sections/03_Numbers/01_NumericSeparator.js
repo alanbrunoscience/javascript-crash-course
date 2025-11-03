@@ -1,3 +1,10 @@
+/**
+ * Numeric separator (_)
+ * 
+ * → You can represent larger numbers clearer, if you wish, with the numeric separator (_). For example:
+ * 
+ */
+
 'use strict';
 
 let num1 = 1_000; // equivalent to 1000
