@@ -1,7 +1,7 @@
 /**
  * Division Remainder
  * 
- * You can also use the remainder operator % which returns the division remainder. Here's an example:
+ * → You can also use the remainder operator '%' which returns the division remainder. Here's an example:
  * 
  */
 
