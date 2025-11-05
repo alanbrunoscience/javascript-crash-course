@@ -1,19 +1,25 @@
 /**
- * Get division remainder by 2 
+ * Get division remainder by 2
  * 
- * Complete the function evenOrOdd such that it returns the string "even" when the number parameter it receives is even and "odd" 
- * otherwise.
+ * → Complete the function 'evenOrOdd' such that it returns the string "even" when the number
+ * parameter it receives is even and "odd" otherwise. Can you make it work with negative numbers
+ * too?
  * 
- * Can you make it work with negative numbers too?
  */
 
 'use strict';
 
 const readlineSync = require("readline-sync");
 
-function evenOrOdd(number) {
+function evenOrOdd(input) {
 
-  if(number % 2 === 0) {
+  const number = Number.parseInt(input);
+
+  if (Number.isNaN(number) || number.toString() !== input.trim()) {
+    return "an invalid number";
+  }
+
+  if (number % 2 === 0) {
     return "even";
   }
 
@@ -23,9 +29,9 @@ function evenOrOdd(number) {
 
 function main() {
 
-  const number = readlineSync.question("Enter a number: ");
+  const numberInput = readlineSync.question("Enter a number: ");
 
-  console.log(`\n-> The number entered is ${evenOrOdd(number)}.`);
+  console.log(`\n-> The number entered is ${evenOrOdd(numberInput)}.`);
 
 }
 

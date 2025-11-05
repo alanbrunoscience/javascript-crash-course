@@ -1,8 +1,9 @@
 /**
  * Number Methods
  * 
- * → While there are some other methods you could call on numbers, they are not very commonly used. What is commonly 
- * used, however, is the 'Math' object which contains methods such as 'min()', 'max()', 'round()', etc.
+ * → While there are some other methods you could call on numbers, they are not very commonly used.
+ * What is commonly used, however, is the 'Math' object which contains methods such as 'min()', 
+ * 'max()', 'round()', etc.
  * 
  */
 

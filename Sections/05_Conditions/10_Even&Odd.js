@@ -1,3 +1,11 @@
+/**
+ * Even & Odd Numbers
+ * 
+ * → The division remainder of a number divided by two is either '0' or '1'. This will help you
+ * know whether the original number is even (divisible by two without a remainder) or odd.
+ * 
+ */
+
 'use strict';
 
 // even numbers

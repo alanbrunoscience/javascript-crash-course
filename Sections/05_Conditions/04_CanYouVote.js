@@ -1,5 +1,9 @@
 /**
- * Implement the function canVote such that it returns true whenever the age is 18 or above and false in all other scenarios.
+ * Can you vote?
+ * 
+ * → Implement the function 'canVote' such that it returns 'true' whenever the age is 18 or
+ * above and 'false' in all other scenarios.
+ * 
  */
 
 'use strict';
