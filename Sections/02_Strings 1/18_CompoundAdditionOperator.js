@@ -1,3 +1,7 @@
+/**
+ * += operator
+ */
+
 'use strict';
 
 let name = "Sam";
